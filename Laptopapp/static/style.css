@@ -1,0 +1,62 @@
+header h1
+{
+   text-align: center;
+   color: SlateBlue;
+}
+
+.auth-links{
+float:right;
+}
+
+div{
+padding-left: 150px;
+text-align:center;
+}
+
+h2
+{
+text-align: center;
+color:red;
+background-color:yellow;
+}
+
+body
+{
+background-color:Aquamarine;
+background-image: url("image.jpg");
+background-repeat:no-repeat;
+background-size: 100%;
+}
+
+
+.Navbar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+
+.block
+{
+color:red;
+

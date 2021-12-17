@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% load crispy_forms_tags %}
+{% block title %}
+    <title>Add Laptop</title>
+{% endblock %}
+{% block content %}
+<form method = 'post' class = 'jumbotron'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Add Laptop">
+</form>
+<a href ="{% url 'show_laptop' %}"><button>Show Laptop</button></a>
+</div>
+{% endblock %}
